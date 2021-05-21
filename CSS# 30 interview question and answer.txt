@@ -1,0 +1,267 @@
+Q1. What is the full form of CSS? 
+CSS stands for Cascading Style Sheets. It is a technology developed by the World Wide Web Consortium or W3C. It was developed to streamline the styling of webpages into a separate technology.
+
+Q2. Why was CSS developed?
+CSS was first developed in 1997 as a way for web developers to define the visual appearance of the web pages that they were creating. It was intended to allow developers to separate the content and structure of a website’s code from the visual design, something that had not been possible prior to this time.
+
+The separation of structure and style allows HTML to perform more of the function that it was originally based on — the markup of content, without having to worry about the design and layout of the page itself, something commonly known as the “look and feel” of the page.
+
+Q3. What are the major versions of CSS?
+The following are the major versions of CSS
+
+CSS 1
+CSS 2
+CSS 2.1
+CSS 3
+CSS 4
+Q4. What are the different ways you could integrate CSS into your HTML page?
+There are three ways that you could integrate a certain CSS style:
+
+You can integrate your style using the style-tags in the head section of your HTML page.
+You can integrate your style using inline-styling.
+You can write your CSS in a separate file and add it to your HTML page using the link tag.
+Q5. What is the meaning of cascading? How do style sheets cascade?
+CSS brought about a revolution in web-development and how people perceive the process of building a website. Prior to the existence of CSS, elements had to be styled in an in-line fashion or the style were implemented in the head section of an HTML page. This was changed due to the cascading nature of CSS. Here are the three major ways CSS cascades:
+
+Elements –  The same CSS style can be applied to multiple elements to achieve the same style.
+Multiple Style One Element – Multiple styles can be applied to a particular HTML element to achieve a unique style.
+Same style, Multiple Pages – The same stylesheet can be applied to different HTML pages altogether to achieve a template styling very quickly.
+Q6. What are the advantages of using CSS?
+Following are the advantages of using CSS:
+
+The style of several documents can be controlled from a single site by using them.
+Multiple HTML elements can have many documents, where classes can be created.
+To group styles in complex situations, selector and grouping methods are used.
+Q7. What are the disadvantages of using CSS?
+Following are the disadvantages of using CSS:
+
+Ascending by selectors is not possible
+Limitations of vertical control
+No expressions
+No column declaration
+Pseudo-class not controlled by dynamic behaviour
+Rules, styles, targeting specific text not possible
+Q8. Name a few prominent CSS frameworks.
+Below are the prominent CSS frameworks in the web development industry today:
+
+Bootstrap
+bootstrap logo - css interview question - edureka
+Bootstrap is the most popular CSS framework for developing responsive and mobile-first websites. Bootstrap 4 is the newest version of Bootstrap
+
+Foundation
+
+Foundation is a responsive front-end framework. Foundation provides a responsive grid and HTML and CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface elements, as well as optional functionality provided by JavaScript extensions.
+
+Semantic UI
+Semantic UI is a modern front-end development framework, powered by LESS(CSS-semantic ui logo - css interview questions - edurekapreprocessor) and jQuery. It has a sleek, subtle, and flat design look that provides a lightweight user experience.
+Ulkit
+UIkit is a lightweight and modular front-end framework for developing fast and UIkit logo - css interview questions - edurekapowerful web interfaces.
+Q9. What is the difference between the usage of an ID and a Class?
+ID – An ID is unique. A particular ID can be only assigned to a single element. IDs are used when specific styling is being tried to be achieved over a single element. Below is a pictorial example of how to use an ID.
+
+ID - css interview questions - edureka
+
+Class – Just like the word suggests, a class is a collective way of targetting HTML elements for styling. Classes are not unique and multiple elements can have the same class. In fact, multiple classes can also be added to the same element to achieve the desired style and look. Below is an example of the usage of classes.
+
+Class - css interview questions - edurekaQ10. What is the RGB stream?
+RGB is a system of representing a certain colour in CSS. There are three streams in this nomenclature of representing a colour, namely the Red, Green and Blue stream. The intensity of the three colours is represented in numbers ranging from 0 to 256. This allows CSS to have a wide range of colours spreading across the entire spectrum of visible colours.
+
+These conclude the easy section. Here is getting started documentation for CSS. Things are going to get a much more particular now. It’s time for intermediate CSS interview questions.
+
+Intermediate CSS Interview Questions
+Q11. What are the ways to assign a certain colour to an element in CSS?
+CSS can assign a wide range of colours to elements using different notations. There are three notations as of now that are used that are explained below:
+
+Hexadecimal notation
+A colour in hexadecimal string notation always begins with the character “#”. After that, the hexadecimal digits of the colour code is written. The string is case-insensitive.
+RGB functional notation
+RGB (Red/Green/Blue) functional notation, like hexadecimal string notation, represents colours using their red, green, and blue components (as well as, optionally, an alpha channel component for opacity). However, instead of using a string, the colour is defined using the CSS function RGB(). This function accepts as its input parameters the values of the red, green, and blue components and an optional fourth parameter, the value for the alpha channel.
+HSL functional notation
+Designers and artists often prefer to work using the HSL (Hue/Saturation/Luminosity) colour method. On the web, HSL colours are represented using HSL functional notation. The HSL() CSS function is very similar to the RGB() function in usage otherwise
+Q12. Explain the CSS Box Model and its different elements.
+The CSS box model describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g. text, an image, etc.) and an optional surrounding padding, border, and margin areas.
+
+The CSS box model is responsible for calculating:
+
+How much space a block element takes up.
+Whether or not borders and/or margins overlap, or collapse.
+A box’s dimensions.
+Box Model - css interview questions - edureka
+
+The box model has the following rules:
+
+The dimensions of a block element are calculated by width, height, padding, borders, and margin.
+If no height is specified, a block element will be as high as the content it contains, plus padding.
+If no width is specified, a non-floated block element will expand to fit the width of its parent minus padding.
+The height of an element is calculated by the content’s height.
+The width of an element is calculated by the content’s width.
+By default, padding and border are not part of the width and height of an element.
+Q13. What is the z-index in CSS? 
+The z-index helps specify the stack order of positioned elements that may overlap one another. The z-index default value is zero and can take on either a positive or negative number.
+
+An element with a higher z-index is always stacked above than a lower index.
+
+Z-Index can take the following values:
+
+Auto: Sets the stack order equal to its parents.
+Number: Orders the stack order.
+Initial: Sets this property to its default value (0).
+Inherit: Inherits this property from its parent element.
+Q14. What are CSS Sprites? 
+CSS sprites combine multiple images into one single larger image. It is a commonly-used technique for icons (Gmail uses it). This is how you could implement it:
+
+Use a sprite generator that packs multiple images into one and generates the appropriate CSS for it.
+Each image would have a corresponding CSS class with background-image, background-position and background-size properties defined.
+To use that image, add the corresponding class to your element.
+CSS Interview Questions
+Q15. Mention a few benefits of using CSS Sprites.
+CSS sprites come with their own advantages. Here are a few of them –
+
+Reduce the number of HTTP requests for multiple images (only one single request is required per sprite sheet). But with HTTP2, loading multiple images is no longer much of an issue.
+Advance downloading of assets that won’t be downloaded until needed, such as images that only appear upon :hover pseudo-states. Blinking wouldn’t be seen.
+Q16. What are pseudo-elements in CSS?
+A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (:first-line, :first-letter) or adding elements to the markup (combined with content: ...) without having to modify the markup (:before, :after).
+
+:first-line and :first-letter can be used to decorate text.
+Triangular arrows in tooltips use :before and :after. This encourages separation of concerns because the triangle is considered a part of styling and not really the DOM. It’s not really possible to draw a triangle with just CSS styles without using an additional HTML element.
+Q17. How will you target an h2 and h3 with the same styling?
+
+You can target multiple elements by separating the separators with a comma (,)
+
+h2, h3 {
+
+color: blue;
+
+}
+
+Q18. What is the float property used for in CSS?
+The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though it still remains a part of the flow (in contrast to absolute positioning). Below is the usage of float
+
+float: none;
+
+float: left;
+
+float: right;
+
+Q19.  What are the different modules used in the current version of CSS?
+There are several modules in CSS. Below are a few of them:
+
+Selectors
+Box Model
+Backgrounds and Borders
+Text Effects
+2D/3D Transformations
+Animations
+Multiple Column Layout
+User Interface
+Q20. What are the different media types allowed by CSS?
+There are four types of @media properties (including screen):
+
+all – for all media type devices
+print – for printers
+speech – for screenreaders that “reads” the page out loud
+screen – for computer screens, tablets, smart-phones etc.
+Here is an example of print-media type’s usage:
+
+@media print {
+
+h1 {
+
+background-color: yellow;
+
+ }
+
+}
+
+Q22. What are the different units used in CSS?
+CSS has two types of lengths. Relative length and absolute length. Different units are used for them.
+
+Relative Length
+
+UNIT	DESCRIPTION
+em	Relative to the font-size of the element (2em means 2 times the size of the current font)
+ex	Relative to the x-height of the current font (rarely used)
+ch	Relative to the width of the “0” (zero)
+rem	Relative to font-size of the root element
+vw	Relative to 1% of the width of the viewport*
+vh	Relative to 1% of the height of the viewport*
+vmin	Relative to 1% of viewport’s* smaller dimension
+vmax	Relative to 1% of viewport’s* larger dimension
+%	Relative to the parent element
+Absolute Length
+
+UNIT	DESCRIPTION
+CM	centimetres
+MM	millimetres
+IN	inches (1in = 96px = 2.54cm)
+PX	pixels (1px = 1/96th of 1in)
+PT	points (1pt = 1/72 of 1in)
+PC	picas (1pc = 12 pt)
+Q23. How do you control image repetition using CSS?
+You can use the background-repeat property to control image.
+
+Course Curriculum
+Full Stack Web Developer Masters Program
+h1 {
+
+background-repeat: none;
+
+ }
+
+Q24. What is the general nomenclature of writing CSS?
+CSS Notation - css interview questions - edurekaIf you look at the above image, you will notice that the styling commands are written in a property & value fashion. The property is, font-colour while the value is yellow. The CSS syntax also incorporates a statement terminator in the form of a semi-colon ‘;’. The entire style in then wrapped around curly braces and then attached to a selector(.boxes here). This creates a style that can be added to a style sheet and then applied to an HTML page. This is how CSS is written everywhere.
+
+Q25. What will this piece of CSS code do to an element? .container { margin: 0 auto; }
+When you have specified a width on the object that you have applied margin: 0 auto to, the object will sit centrally within its parent container. Specifying auto as the second parameter basically tells the browser to automatically determine the left and right margins itself, which it does by setting them equally. It guarantees that the left and right margins will be set to the same size. The first parameter 0 indicates that the top and bottom margins will both be set to 0.
+
+margin-top:0; margin-bottom:0; margin-left:auto; margin-right:auto;
+Therefore, to give you an example, if the parent is 100px and the child is 50px, then the auto property will determine that there’s 50px of free space to share between margin-left and margin-right:
+
+var freeSpace = 100 - 50;
+var equalShare = freeSpace / 2;
+
+Which would give:
+
+margin-left:25;
+margin-right:25;
+Q26. What is the overflow property in CSS used for?
+The overflow property specifies what should happen if content overflows an element’s box. This property specifies whether to clip content or to add scrollbars when an element’s content is too big to fit in a specified area. Below are the overflow options available in CSS – 
+
+overflow: auto;
+
+overflow: none;
+
+overflow: scroll;
+
+overflow: visible;
+
+Q27. What is the property that is used for controlling image-scroll?
+The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed. Here is an example of a background-image that will not scroll with the page (fixed):
+
+body {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+Q28. What is responsive web design?
+Responsive design is an approach to web page creation that makes use of flexible layouts, flexible images and cascading style sheet media queries. The goal of responsive design is to build web pages that detect the visitor’s screen size and orientation and change the layout accordingly.
+
+Q29. What is the difference between {visibility: hidden} and {display: none}? 
+display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the DOM). There will be no space allocated for it between the other tags.
+
+visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn’t seen on the page.
+
+For example:
+
+test | <span style="[style-tag-value]">Appropriate style in this tag</span> | test
+Replacing [style-tag-value] with display:none results in:
+
+test |   | test
+Replacing [style-tag-value] with visibility:hidden results in:
+
+test |                        | test
+Q30. Explain the concept of specificity in CSS.
+Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
+
+Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector. When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations. As per CSS rules, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.
